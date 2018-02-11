@@ -1,0 +1,112 @@
+/* -- - - - - - - - - - - - - general - - - - - - - - - - - - - - - - - - */
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 3rem;
+    color: #fff;
+}
+
+h5 {
+    color: #d3e0f7;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+ /* - - -- - - - - - -- - - -- - - -- - -- -  */
+
+nav {
+    background-color: #512645;
+    border-color: transparent;
+}
+
+nav ul {
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #d3e0f7;
+    font-size: 1.7rem;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #d3e0f7;
+}
+
+/* sliding nav*/
+
+nav a {
+    display: inline-block;
+}
+
+nav a:after {
+    content: '';
+    display: block;
+    height: 2.3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+nav a:hover:after {
+    width: 100%;
+    background: #d3e0f7;
+}
+
+.content {
+    padding: 6rem 11rem;
+    text-align: justify;
+    background-color: #3f4040;
+    border-bottom: 3px solid #272625;
+    -webkit-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
+    -moz-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
+    box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
+}
+
+.content p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#contact img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#contact .center-block {
+    width: 30%;
+    margin: auto;
+}
+
+#docs a {
+    color: #d3e0f7;
+}
+
+#docs a:hover {
+    text-decoration: none;
+    color: #d3e0f7;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.mail{
+    text-align: center;
+}
+
+footer {
+    background-color: #272625;
+    color: #fff;
+}
+
+footer p {
+    padding: 2rem;
+}
