@@ -4,31 +4,49 @@ h1 {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 3rem;
-    color: #fff;
+    color: #EFEFEF;
 }
 
 h5 {
-    color: #d3e0f7;
+    color: #EFEFEF;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 ul {
     list-style: none;
 }
+
+hr{
+    margin: 0;
+}
  /* - - -- - - - - - -- - - -- - - -- - -- -  */
 
 nav {
-    background-color: #512645;
+    background-color: #EFEFEF;
     border-color: transparent;
 }
 
 nav ul {
     text-transform: uppercase;
+
 }
 
-nav a {
-    color: #d3e0f7;
-    font-size: 1.7rem;
+nav.navbar-inverse {
+    background-color: #1B1D26 !important;
+    font-size: 1.4rem;
+    border-color: transparent;
+}
+
+.navbar-nav{
+    float: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
@@ -53,30 +71,51 @@ nav a:after {
 
 nav a:hover:after {
     width: 100%;
-    background: #d3e0f7;
+    background: #fff;
+}
+
+.brand:hover:after{
+    width: 0;
+}
+
+.description{
+    width: 80%;
+    margin: auto;
 }
 
 .content {
     padding: 6rem 11rem;
     text-align: justify;
-    background-color: #3f4040;
-    border-bottom: 3px solid #272625;
-    -webkit-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
+    /* border-bottom: 2px solid rgb(54, 157, 212); */
+    /* -webkit-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
     -moz-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
-    box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
+    box-shadow: inset 0px -3px 9px 0px rgba(240, 240, 240, 1); */
+}
+
+.content-blue{
+    background-color: #2B3A42;
+}
+
+.content-green{
+    background-color: #002F2F;
 }
 
 .content p {
-    color: #fff;
+    color: #EFEFEF;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.3rem;
+}
+
+#contact{
+    border-bottom: none;
 }
 
 #contact img {
     width: 100px;
     height: 100px;
     margin: auto;
+    border-bottom: none;
 }
 
 #contact .center-block {
@@ -85,7 +124,7 @@ nav a:hover:after {
 }
 
 #docs a {
-    color: #d3e0f7;
+    color: #000;
 }
 
 #docs a:hover {
