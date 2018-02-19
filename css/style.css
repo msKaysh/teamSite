@@ -55,7 +55,6 @@ nav a:hover {
 }
 
 /* sliding nav*/
-
 nav a {
     display: inline-block;
 }
@@ -78,7 +77,25 @@ nav a:hover:after {
     width: 0;
 }
 
+.accordion{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.btn{
+    background-color: #002F2F;
+    color: #d3e0f7;
+    margin: 1rem;
+}
+
+.btn:hover{
+    color: #d3e0f7;
+}
+
 .description{
+    display: block;
     width: 80%;
     margin: auto;
 }
@@ -86,10 +103,6 @@ nav a:hover:after {
 .content {
     padding: 6rem 11rem;
     text-align: justify;
-    /* border-bottom: 2px solid rgb(54, 157, 212); */
-    /* -webkit-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
-    -moz-box-shadow: inset 0px -3px 9px 0px rgba(39, 38, 37, 1);
-    box-shadow: inset 0px -3px 9px 0px rgba(240, 240, 240, 1); */
 }
 
 .content-blue{
@@ -105,6 +118,10 @@ nav a:hover:after {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     line-height: 2.3rem;
+}
+
+#team .content{
+    padding: 1rem;
 }
 
 #contact{
@@ -149,3 +166,4 @@ footer {
 footer p {
     padding: 2rem;
 }
+

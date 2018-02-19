@@ -1,0 +1,12 @@
+ul.navbar-nav{
+    float: left;
+    display: block;
+}
+
+nav a{
+    display: block;
+}
+
+.content{
+    padding: 1rem;
+}
