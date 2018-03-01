@@ -55,6 +55,10 @@ nav a:hover {
     color: #d3e0f7;
 }
 
+button.navbar-inverse .navbar-toggle {
+    border-color: #a9834f;
+}
+
 /* sliding nav*/
 nav a {
     display: inline-block;
@@ -142,12 +146,11 @@ nav a:hover:after {
 }
 
 #docs a {
-    color: #000;
+    color: #a9834f;
 }
 
 #docs a:hover {
     text-decoration: none;
-    color: #d3e0f7;
 }
 
 .contact-icons {

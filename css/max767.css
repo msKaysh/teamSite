@@ -1,6 +1,7 @@
 ul.navbar-nav{
     float: left;
     display: block;
+    border: transparent;
 }
 
 nav a{
@@ -9,4 +10,17 @@ nav a{
 
 .content{
     padding: 1rem;
+}
+
+nav a:hover:after {
+    width: 100%;
+    background: transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: 0;
 }
